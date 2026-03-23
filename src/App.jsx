@@ -16,7 +16,8 @@ import CareerPage from './pages/CareerPage';
 import ContactPage from './pages/ContactPage';
 import BlogPage from './pages/BlogPage';
 import TenderPage from './pages/TenderPage';
-
+import Management from './pages/Management';
+import EQuotation from './pages/EQuotation';  
 function App() {
   return (
     <Router>
@@ -37,10 +38,12 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/products" element={<ProductPage />} />
             <Route path="/e-auction" element={<AuctionPage />} />
+            <Route path="/e-quotation" element={<EQuotation />} />
             <Route path="/media" element={<MediaPage />} />
             <Route path="/careers" element={<CareerPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/blog" element={<BlogPage />} />
+            <Route path="/Management" element={<Management />} />
             <Route path="/tender-contract" element={<TenderPage />} />
           </Routes>
         </main>

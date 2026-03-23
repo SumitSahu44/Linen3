@@ -34,7 +34,9 @@ const Navbar = () => {
       href: '#', 
       hasDropdown: true, 
       subLinks: [
-        { name: 'e-Auction', path: '/e-auction' },
+        { name: 'Management', path: '/management' },
+         { name: 'e-Auction', path: '/e-auction' },
+          { name: 'e-Quotation', path: '/e-quotation' },
         { name: 'Tender & Contract', path: '/tender-contract' },
         { name: 'Circular', path: '/media' }
       ] 

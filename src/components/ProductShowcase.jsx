@@ -2,9 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const products = [
-  { id: 1, title: 'Industrial Fabrics', category: 'Raw Materials', img: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=600' },
-  { id: 2, title: 'Premium Bedsheets', category: 'Linen', img: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=600' },
-  { id: 3, title: 'Hotel Collection', category: 'Hospitality', img: 'https://images.unsplash.com/photo-1584132867693-c3191b784f3e?q=80&w=600' },
+  { id: 1, title: 'Industrial Fabrics', category: 'Raw Materials', img: 'https://images.unsplash.com/photo-1590566996911-2d82c6b7e585?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxpbmVufGVufDB8fDB8fHww' },
+  { id: 2, title: 'Premium Bedsheets', category: 'Linen', img: 'https://images.unsplash.com/photo-1601276174812-63280a55656e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxpbmVufGVufDB8fDB8fHww' },
+  { id: 3, title: 'Hotel Collection', category: 'Hospitality', img: 'https://media.istockphoto.com/id/528908529/photo/colored-cloth.webp?a=1&b=1&s=612x612&w=0&k=20&c=VxBdS90v9gSWUrtRKMVhdz47785_auSF5K1NBWwVGKk=' },
 ];
 
 const ProductShowcase = () => {

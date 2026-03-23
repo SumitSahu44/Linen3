@@ -92,7 +92,7 @@ const AboutPage = () => {
           {/* Image Composition */}
           <div className="relative">
             <div className="aspect-[4/5] rounded-[4rem] overflow-hidden shadow-2xl relative z-10">
-              <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=800" className="w-full h-full object-cover" alt="Fabric Detail"/>
+              <img src="https://images.unsplash.com/photo-1596433904500-97b901c5d274?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGxpbmVufGVufDB8fDB8fHww" className="w-full h-full object-cover" alt="Fabric Detail"/>
             </div>
             {/* Decorative Element */}
             <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-blue-600 rounded-[4rem] -z-0 opacity-10"></div>

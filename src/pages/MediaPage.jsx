@@ -8,12 +8,12 @@ const MediaPage = () => {
   const categories = ['All', 'Events', 'Factory', 'Awards', 'Exhibitions'];
 
   const mediaItems = [
-    { id: 1, title: 'International Textile Fair 2026', cat: 'Events', img: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=800', date: 'Feb 12, 2026', loc: 'New Delhi' },
-    { id: 2, title: 'New Weaving Machine Launch', cat: 'Factory', img: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800', date: 'Jan 20, 2026', loc: 'Kolkata Plant' },
-    { id: 3, title: 'Best Manufacturer Award', cat: 'Awards', img: 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?q=80&w=800', date: 'Dec 15, 2025', loc: 'Mumbai' },
-    { id: 4, title: 'Export Quality Showcase', cat: 'Exhibitions', img: 'https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=800', date: 'Nov 10, 2025', loc: 'Dubai, UAE' },
-    { id: 5, title: 'Factory Safety Drill', cat: 'Factory', img: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800', date: 'Oct 05, 2025', loc: 'Kolkata Plant' },
-    { id: 6, title: 'Corporate Social Responsibility', cat: 'Events', img: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=800', date: 'Sep 22, 2025', loc: 'West Bengal' },
+    { id: 1, title: 'International Textile Fair 2026', cat: 'Events', img: 'https://plus.unsplash.com/premium_photo-1748215293471-708798f65be2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGV4dGlsZSUyMGIyYiUyMGV2ZW50c3xlbnwwfHwwfHx8MA%3D%3D', date: 'Feb 12, 2026', loc: 'New Delhi' },
+    { id: 2, title: 'New Weaving Machine Launch', cat: 'Factory', img: 'https://images.unsplash.com/photo-1761682719769-47c76c845d50?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGV4dGlsZSUyMGIyYiUyMGV2ZW50c3xlbnwwfHwwfHx8MA%3D%3D', date: 'Jan 20, 2026', loc: 'Kolkata Plant' },
+    { id: 3, title: 'Best Manufacturer Award', cat: 'Awards', img: 'https://images.unsplash.com/photo-1739195792906-fb5241bf9f82?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dGlsZSUyMGIyYiUyMGV2ZW50c3xlbnwwfHwwfHx8MA%3D%3D', date: 'Dec 15, 2025', loc: 'Mumbai' },
+    { id: 4, title: 'Export Quality Showcase', cat: 'Exhibitions', img: 'https://images.unsplash.com/photo-1659767151200-f2543af40c44?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGV4dGlsZSUyMGIyYiUyMGV2ZW50c3xlbnwwfHwwfHx8MA%3D%3D', date: 'Nov 10, 2025', loc: 'Dubai, UAE' },
+    { id: 5, title: 'Factory Safety Drill', cat: 'Factory', img: 'https://images.unsplash.com/photo-1718049942873-58bd663206dc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHRleHRpbGUlMjBiMmIlMjBldmVudHN8ZW58MHx8MHx8fDA%3D0', date: 'Oct 05, 2025', loc: 'Kolkata Plant' },
+    { id: 6, title: 'Corporate Social Responsibility', cat: 'Events', img: 'https://images.unsplash.com/photo-1659767151200-f2543af40c44?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGV4dGlsZSUyMGIyYiUyMGV2ZW50c3xlbnwwfHwwfHx8MA%3D%3D', date: 'Sep 22, 2025', loc: 'West Bengal' },
   ];
 
   const filteredMedia = activeFilter === 'All' 

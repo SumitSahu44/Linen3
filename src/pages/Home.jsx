@@ -37,7 +37,7 @@ const Home = () => {
       <MapSection />
 
       {/* 5. Live Tender Snapshot (Dashboard Style) */}
-      <div className="py-24 bg-white">
+      {/* <div className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6 text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black text-slate-900 tracking-tighter uppercase ">Live Procurement</h2>
           <p className="text-slate-500 font-medium mt-4">Current open tenders and e-auctions from our Kolkata headquarters.</p>
@@ -48,7 +48,7 @@ const Home = () => {
              Explore All Tenders
            </Link>
         </div>
-      </div>
+      </div> */}
 
       {/* 6. Unique Section: Customer Reviews (Testimonials) */}
       <section className="py-24 bg-slate-50 relative overflow-hidden">

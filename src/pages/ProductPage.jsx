@@ -8,12 +8,12 @@ const ProductPage = () => {
   const categories = ['All', 'Fabrics', 'Bedsheets', 'Linen'];
 
   const products = [
-    { id: 1, name: 'Premium Cotton Fabric', cat: 'Fabrics', img: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=800', desc: 'High-thread count industrial grade cotton.' },
-    { id: 2, name: 'Hotel Luxury Bedsheet', cat: 'Bedsheets', img: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800', desc: 'Satin-finish white linen for 5-star hospitality.' },
-    { id: 3, name: 'Institutional Linen', cat: 'Linen', img: 'https://images.unsplash.com/photo-1584132867693-c3191b784f3e?q=80&w=800', desc: 'Durable and bleached linen for medical use.' },
-    { id: 4, name: 'Printed Textile Roll', cat: 'Fabrics', img: 'https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=800', desc: 'Custom printed fabrics for retail chains.' },
-    { id: 5, name: 'King Size Comforter', cat: 'Bedsheets', img: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=800', desc: 'Ultra-soft microfiber filled comforters.' },
-    { id: 6, name: 'Bath & Face Towels', cat: 'Linen', img: 'https://images.unsplash.com/photo-1560347826-6020c5ad908b?q=80&w=800', desc: 'Highly absorbent Turkish cotton towels.' },
+    { id: 1, name: 'Premium Cotton Fabric', cat: 'Fabrics', img: 'https://images.unsplash.com/photo-1673201102066-b0599d45002b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8UHJlbWl1bSUyMENvdHRvbiUyMEZhYnJpY3xlbnwwfHwwfHx8MA%3D%3D', desc: 'High-thread count industrial grade cotton.' },
+    { id: 2, name: 'Hotel Luxury Bedsheet', cat: 'Bedsheets', img: 'https://plus.unsplash.com/premium_photo-1732017764574-f3a6d3a348e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8SG90ZWwlMjBMdXh1cnklMjBCZWRzaGVldHxlbnwwfHwwfHx8MA%3D%3D', desc: 'Satin-finish white linen for 5-star hospitality.' },
+    { id: 3, name: 'Institutional Linen', cat: 'Linen', img: 'https://media.istockphoto.com/id/528908529/photo/colored-cloth.webp?a=1&b=1&s=612x612&w=0&k=20&c=VxBdS90v9gSWUrtRKMVhdz47785_auSF5K1NBWwVGKk=', desc: 'Durable and bleached linen for medical use.' },
+    { id: 4, name: 'Printed Textile Roll', cat: 'Fabrics', img: 'https://media.istockphoto.com/id/2219802119/photo/color-palette-textile-swatches-material-textures.webp?a=1&b=1&s=612x612&w=0&k=20&c=jnZoteWPWimpkl_PaF0iD0p6EYgBSX1kaVmJH4--npU=', desc: 'Custom printed fabrics for retail chains.' },
+    { id: 5, name: 'King Size Comforter', cat: 'Bedsheets', img: 'https://plus.unsplash.com/premium_photo-1675376074213-a36912befae7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8S2luZyUyMFNpemUlMjBDb21mb3J0ZXJ8ZW58MHx8MHx8fDA%3D', desc: 'Ultra-soft microfiber filled comforters.' },
+    { id: 6, name: 'Bath & Face Towels', cat: 'Linen', img: 'https://images.unsplash.com/photo-1616663717839-2fea42e1a1f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEJhdGglMjAlMjYlMjBGYWNlJTIwVG93ZWxzfGVufDB8fDB8fHww', desc: 'Highly absorbent Turkish cotton towels.' },
   ];
 
   const filteredProducts = activeCategory === 'All' 
