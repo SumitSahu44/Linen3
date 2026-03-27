@@ -41,7 +41,7 @@ const AuctionPage = () => {
             >
               <span className="text-blue-400 font-bold uppercase tracking-[0.4em] text-[10px] mb-4 block ">Official Procurement Portal</span>
               <h1 className="text-5xl md:text-7xl font-black text-white tracking-tighter mb-6 uppercase ">
-                e-Auction & <br/> <span className="text-blue-500">Tender Board</span>
+                <span className="lowercase">e-</span>Auction & <br/> <span className="text-blue-500">Tender Board</span>
               </h1>
               <p className="text-slate-400 font-medium text-lg">
                 Real-time access to active tenders, auctions, and corporate contracts for Parekh Linen Kolkata.

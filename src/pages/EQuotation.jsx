@@ -9,7 +9,7 @@ const EQuotation = () => {
         {/* Header Section - Same as Engineering Section */}
         <div className="grid lg:grid-cols-2 gap-24 items-end mb-20">
           <div className="space-y-6">
-            <span className="text-blue-600 font-black uppercase  text-[12px]">E-Quotation System</span>
+            <span className="text-blue-600 font-black uppercase  text-[12px]"><span className="lowercase">e-</span>Quotation System</span>
             <h2 className="text-4xl md:text-6xl font-black text-slate-900  mt-4 uppercase">
               Request A <br/> <span className="text-blue-600">Global Quote.</span>
             </h2>

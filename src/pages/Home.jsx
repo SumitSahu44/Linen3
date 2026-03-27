@@ -94,10 +94,10 @@ const Home = () => {
            <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 blur-[100px] rounded-full -mr-20 -mt-20"></div>
            <h4 className="text-white text-4xl md:text-6xl font-black mb-8 tracking-tighter leading-none">Ready to start <br/> a project?</h4>
            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-             <Link to="/contact" className="px-10 py-5 bg-white text-blue-600 font-black rounded-2xl hover:scale-105 transition-all uppercase tracking-widest text-xs">
-                Request e-Quotation
+             <Link to="/trade-enquiry" className="px-10 py-5 bg-white text-blue-600 font-black rounded-2xl hover:scale-105 transition-all uppercase tracking-widest text-xs">
+                Request <span className="lowercase">e-</span>Quotation
              </Link>
-             <Link to="/contact" className="px-10 py-5 bg-slate-900 text-white font-black rounded-2xl hover:scale-105 transition-all uppercase tracking-widest text-xs border border-slate-800">
+             <Link to="/visit-appointment" className="px-10 py-5 bg-slate-900 text-white font-black rounded-2xl hover:scale-105 transition-all uppercase tracking-widest text-xs border border-slate-800">
                 Book Factory Visit
              </Link>
            </div>

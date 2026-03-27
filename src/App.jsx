@@ -18,19 +18,26 @@ import BlogPage from './pages/BlogPage';
 import TenderPage from './pages/TenderPage';
 import Management from './pages/Management';
 import EQuotation from './pages/EQuotation';  
+import Map from './components/Map';
+import CustomerReview from './pages/CustomerReview';
+import VisitAppointment from './pages/VisitAppointment';
+import CircularPage from './pages/CircularPage';
+import TextileAssociates from './pages/TextileAssociates';
+import TradeEnquiry from './pages/TradeEnquiry';
+
 function App() {
   return (
     <Router>
-      {/* Relative position yahan zaroori hai taaki 
-        Navbar is container ke top (0,0) par fixed rahe 
+      {/* Relative position is necessary here so that 
+        Navbar remains fixed at the top (0,0) of this container 
       */}
       <div className="relative font-sans antialiased bg-white">
         
-        {/* Navbar Fixed hai, isliye ye neeche ke content ke upar float karega */}
+        {/* Navbar is Fixed, so it will float above the content below */}
         <Navbar />
         
-        {/* Main area mein padding-top mat dena, 
-          taaki Routes ke andar wale components top:0 se start ho 
+        {/* Do not add padding-top to the main area, 
+          so that components inside Routes start from top:0 
         */}
         <main className="w-full">
           <Routes>
@@ -45,6 +52,12 @@ function App() {
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/Management" element={<Management />} />
             <Route path="/tender-contract" element={<TenderPage />} />
+            <Route path="/customer-review" element={<CustomerReview />} />
+            <Route path="/visit-appointment" element={<VisitAppointment />} />
+            <Route path="/circulars" element={<CircularPage />} />
+            <Route path="/textile-associates" element={<TextileAssociates />} />
+            <Route path="/trade-enquiry" element={<TradeEnquiry />} />
+            <Route path="/Textile-Map" element={<Map />} />
           </Routes>
         </main>
 
