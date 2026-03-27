@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Background Image with Dark Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=2000" 
+          src="https://media.istockphoto.com/id/2082206908/photo/luxury-mens-fabric-swatches.webp?a=1&b=1&s=612x612&w=0&k=20&c=Vlm1eaSMxCjP4zL-5tsEDop1We4FkESM17JDoYmfwZI=" 
           alt="Linen Texture" 
           className="w-full h-full object-cover opacity-60" // Image thodi dark rakhi hai
         />

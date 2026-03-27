@@ -14,7 +14,7 @@ const AboutSection = () => {
             {/* Main Large Image */}
             <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl transition-transform duration-700 group-hover:scale-[1.02]">
               <img 
-                src="https://images.unsplash.com/photo-1558444479-c848267a1a62?q=80&w=1200" 
+                src="https://images.unsplash.com/photo-1721134580344-cdc9c0ec8cbc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UXVhbGl0eSUyMExpbmVuJTIwZm9yJTIwTW9kZXJuJTIwTGl2aW5nfGVufDB8fDB8fHww" 
                 alt="Our Manufacturing Unit" 
                 className="w-full h-[550px] object-cover"
               />

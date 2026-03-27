@@ -34,7 +34,7 @@ const Home = () => {
       </div>
 
       {/* 4. Unique Section: India Map (Textile Associates) */}
-      <MapSection />
+      {/* <MapSection /> */}
 
       {/* 5. Live Tender Snapshot (Dashboard Style) */}
       {/* <div className="py-24 bg-white">

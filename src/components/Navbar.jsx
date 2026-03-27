@@ -38,7 +38,7 @@ const Navbar = () => {
         { name: 'e-Auction', path: '/e-auction' },
         { name: 'e-Quotation', path: '/e-quotation' },
         { name: 'Tender & Contract', path: '/tender-contract' },
-        { name: 'Circular', path: '/media' }
+        { name: 'Circular', path: '/circulars' }
       ]
     },
     { name: 'Media', href: '/media' },
