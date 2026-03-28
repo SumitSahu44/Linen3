@@ -30,7 +30,7 @@ const BlogPage = () => {
       author: "Technical Team",
       date: "March 05, 2026",
       category: "Tips",
-      img: "https://images.unsplash.com/photo-1584132867693-c3191b784f3e?q=80&w=800"
+      img: "https://images.unsplash.com/photo-1591625591034-75d303d2e1a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGluZW58ZW58MHx8MHx8fDA%3D"
     }
   ];
 

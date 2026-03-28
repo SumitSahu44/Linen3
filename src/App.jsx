@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import ScrollToTop from './components/ScrollToTop';
 // Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -28,6 +28,7 @@ import TradeEnquiry from './pages/TradeEnquiry';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       {/* Relative position is necessary here so that 
         Navbar remains fixed at the top (0,0) of this container 
       */}

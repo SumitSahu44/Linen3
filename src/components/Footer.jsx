@@ -45,7 +45,7 @@ const Footer = () => {
                 <li key={link.name}>
                   <Link 
                     to={link.path} 
-                    className="text-slate-400 text-[13px] font-bold uppercase tracking-widest hover:text-white hover:translate-x-2 transition-all flex items-center gap-2 group"
+                    className="text-slate-400 text-[13px] font-bold  tracking-widest hover:text-white hover:translate-x-2 transition-all flex items-center gap-2 group"
                   >
                     <ArrowRight size={14} className="opacity-0 group-hover:opacity-100 transition-opacity text-blue-500" />
                     {link.name}

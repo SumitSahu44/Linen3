@@ -23,11 +23,6 @@ const Navbar = () => {
     {
       name: 'Products',
       href: '/products',
-      hasDropdown: true,
-      subLinks: [
-        { name: 'All Products', path: '/products' },
-        { name: 'Photo Gallery', path: '/media' }
-      ]
     },
     {
       name: 'Corporate',
